@@ -5,7 +5,7 @@ class Education extends Component {
     return(
       <div>
       {this.props.title}
-      <div> 
+      <div class = 'cont'> 
         <ul>
           <li>
             Financial Engineer from Universidad Autonoma de Bucaramanga
