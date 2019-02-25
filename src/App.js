@@ -3,6 +3,7 @@ import Education from './Education.js';
 import Hello from './Hello.js'
 import './App.css';
 import faiber from "./faiber.jpg"
+import Logos from './Logos.js'
 
 class App extends Component {
   render() {
@@ -16,11 +17,15 @@ class App extends Component {
           </header>
 
         </div>
-        <div className = 'Container'>
-          <Education title="Education" />
+        <div className = 'conta'>
+          <Education title="Education" text-align = 'center' />
 
 
-          <Education title="Other" />
+          <Education title="Hobbies" />
+          
+        </div>
+        <div className = 'logos'>
+        <Logos />
         </div>
         </div>
     );

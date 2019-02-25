@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Education extends Component {
   render(){
     return(
-      <div>
-      {this.props.title}
-      <div class = 'cont'> 
+      <div className = 'cont'> 
+      <div className = 'tittle'> {this.props.title }</div>
+
         <ul>
           <li>
             Financial Engineer from Universidad Autonoma de Bucaramanga
@@ -17,8 +17,8 @@ class Education extends Component {
             Full Stack Developer Bootcamp in Bogota Dev
           </li>
         </ul>
-      </div>
-      <br></br>
+      
+
      
       </div>
     )
